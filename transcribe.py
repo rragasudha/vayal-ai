@@ -1,50 +1,36 @@
 import os
 import sys
-import time
-from huggingface_hub import InferenceClient
+from groq import Groq
 from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL_ID = "openai/whisper-large-v3"
-MAX_RETRIES = 3
-RETRY_DELAY = 10  # seconds; HF free-tier cold starts typically resolve within 20s
+MODEL_ID = "whisper-large-v3"
 
 
 def transcribe(audio_path: str) -> str:
-    """Send an audio file to Whisper via HuggingFace InferenceClient and return the Tamil transcript."""
-    token = os.getenv("HF_TOKEN")
-    if not token:
-        raise EnvironmentError("HF_TOKEN not set. Copy .env.example to .env and add your token.")
+    """Send an audio file to Whisper via Groq and return the Tamil transcript."""
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key:
+        raise EnvironmentError("GROQ_API_KEY not set. Copy .env.example to .env and add your key.")
 
     if not os.path.exists(audio_path):
         raise FileNotFoundError(f"Audio file not found: {audio_path}")
 
-    client = InferenceClient(token=token)
+    client = Groq(api_key=api_key)
 
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            # Force Tamil — without this Whisper auto-detects and may output Telugu or Malayalam
-            result = client.automatic_speech_recognition(
-                audio_path,
-                model=MODEL_ID,
-                extra_body={"language": "ta"},
-            )
-            # InferenceClient returns an AutomaticSpeechRecognitionOutput with a .text attribute
-            transcript = result.text.strip() if hasattr(result, "text") else str(result).strip()
-            if not transcript:
-                raise ValueError("Whisper returned an empty transcript.")
-            return transcript
+    with open(audio_path, "rb") as audio_file:
+        result = client.audio.transcriptions.create(
+            file=(os.path.basename(audio_path), audio_file),
+            model=MODEL_ID,
+            language="ta",
+            response_format="text",
+        )
 
-        except Exception as e:
-            err = str(e)
-            if "503" in err and attempt < MAX_RETRIES:
-                print(f"[TRANSCRIBE] Model loading (attempt {attempt}/{MAX_RETRIES}), retrying in {RETRY_DELAY}s...")
-                time.sleep(RETRY_DELAY)
-                continue
-            raise RuntimeError(f"Whisper transcription failed: {err}") from e
-
-    raise RuntimeError("Whisper model did not load after maximum retries. Try again in a minute.")
+    transcript = result.strip() if isinstance(result, str) else result.text.strip()
+    if not transcript:
+        raise ValueError("Whisper returned an empty transcript.")
+    return transcript
 
 
 if __name__ == "__main__":
@@ -53,6 +39,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     path = sys.argv[1]
-    print(f"[TRANSCRIBE] Sending {path} to Whisper...")
+    print(f"[TRANSCRIBE] Sending {path} to Whisper via Groq...")
     text = transcribe(path)
     print(f"[TRANSCRIPT] {text}")
