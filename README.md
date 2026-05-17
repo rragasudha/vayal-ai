@@ -44,9 +44,9 @@ python main.py --text "நெல் செடியில் இலைகள் 
 python main.py --text "நெல் செடியில் இலைகள் மஞ்சளாக மாறுகின்றன, என்ன செய்வது?"
 ```
 
-**Audio mode** (farmer speaks a question into a microphone):
+**listen mode** (farmer speaks a question into a microphone):
 ```bash
-python main.py --audio path/to/question.wav
+python main.py --listen
 ```
 
 ---
