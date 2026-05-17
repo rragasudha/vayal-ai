@@ -1,0 +1,5 @@
+requests
+huggingface_hub
+python-dotenv
+sounddevice
+scipy

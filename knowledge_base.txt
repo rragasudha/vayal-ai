@@ -1,0 +1,404 @@
+# VAYAL AI — AGRICULTURAL KNOWLEDGE BASE
+# Tamil Nadu crops: rice, banana, sugarcane, groundnut, cotton
+# Language: English — Gemma 4 will reason and respond in Tamil from this content
+
+================================================================================
+CROP 1: RICE (நெல் — Nel)
+================================================================================
+
+PLANTING SEASON
+- Kuruvai (குறுவை): June–July (Aani–Aadi) — short-duration variety, 105–120 days
+- Samba (சம்பா): August–September (Aavani–Purattasi) — long-duration, 155–165 days
+- Thaladi (தாளடி): November–December (Karthigai–Margazhi) — second Samba planting
+
+SOIL PREFERENCE
+- Heavy clay or clay-loam soils that retain water well
+- pH 5.5–7.0; slightly acidic preferred
+- Avoid sandy soils — poor water retention
+
+WATER REQUIREMENTS
+- Standing water of 5–7 cm during vegetative stage
+- Drain field 10 days before harvest
+- Total water need: 1200–1500 mm per crop season
+
+--- DISEASES ---
+
+1. Blast (Pyricularia oryzae)
+   Symptoms: Diamond-shaped gray lesions with brown borders on leaves; neck rot causes white panicles (called "deadheart" at seedling stage)
+   Cause: Fungus Pyricularia oryzae; favored by cool nights, high humidity, excess nitrogen
+   Remedy: Spray Tricyclazole 75 WP (0.6 g/L) or Carbendazim 50 WP (1 g/L). Reduce nitrogen top-dressing. Use resistant varieties like ADT 43, CO 51.
+
+2. Bacterial Leaf Blight (BLB) (Xanthomonas oryzae)
+   Symptoms: Water-soaked lesions at leaf tips/margins turning yellow then straw-colored; "kresek" phase kills seedlings
+   Cause: Bacteria Xanthomonas oryzae pv. oryzae; spreads through flood water, wounds
+   Remedy: No chemical cure once infected. Drain field immediately. Spray Copper oxychloride 50 WP (2.5 g/L) as preventive. Use BLB-resistant varieties.
+
+3. Sheath Blight (Rhizoctonia solani)
+   Symptoms: Oval or irregular lesions on leaf sheath near water line; gray-white center with brown border; lodging of crop
+   Cause: Fungus Rhizoctonia solani; dense planting, high nitrogen, humid conditions
+   Remedy: Spray Hexaconazole 5 EC (2 mL/L) or Validamycin 3 SL (2 mL/L). Reduce plant density. Avoid excess nitrogen.
+
+4. False Smut (Ustilaginoidea virens)
+   Symptoms: Individual grains replaced by velvety orange-green balls; reduces grain yield
+   Cause: Fungus favored by cool, cloudy weather during flowering
+   Remedy: Spray Propiconazole 25 EC (1 mL/L) at booting stage. Remove infected plants.
+
+--- PESTS ---
+
+1. Rice Stem Borer (Scirpophaga incertulas)
+   Symptoms: "Deadheart" — central shoot dries in vegetative stage; "whitehead" — panicle dries at reproductive stage
+   Remedy: Apply Chlorpyrifos 20 EC (2.5 mL/L) or Carbofuran 3G (25 kg/ha). Remove egg masses. Use light traps for adult moths.
+
+2. Brown Plant Hopper (BPH) (Nilaparvata lugens)
+   Symptoms: Circular patches of dried, brown plants ("hopper burn"); insects visible at base of plant near water
+   Remedy: Spray Imidacloprid 17.8 SL (0.5 mL/L) or Thiamethoxam 25 WG (0.2 g/L). Drain field. Avoid excess nitrogen. Preserve spiders (natural predators).
+
+3. Leaf Folder (Cnaphalocrocis medinalis)
+   Symptoms: Leaves fold longitudinally and stitched with silk; green tissue scraped off leaving white streaks
+   Remedy: Spray Chlorantraniliprole 18.5 SC (0.3 mL/L) or Monocrotophos 36 SL (1.5 mL/L). Release Trichogramma egg parasitoids.
+
+================================================================================
+CROP 2: BANANA (வாழை — Vaazhai)
+================================================================================
+
+PLANTING SEASON
+- Best planting: June–July (Aani–Aadi) and December–January (Margazhi–Thai)
+- Avoid planting in peak summer (April–May) — heat stress affects establishment
+- Harvest 11–14 months after planting depending on variety
+
+SOIL PREFERENCE
+- Deep, well-drained loamy soil; pH 6.0–7.5
+- Cannot tolerate waterlogging — roots rot quickly
+- Rich in organic matter preferred
+
+WATER REQUIREMENTS
+- 1800–2000 mm per year; does not tolerate drought
+- Drip irrigation preferred — 8–10 liters per plant per day
+- Critical water stages: bunch development and finger filling
+
+--- DISEASES ---
+
+1. Panama Wilt / Fusarium Wilt (Fusarium oxysporum f.sp. cubense)
+   Symptoms: Yellowing of older leaves starting from margins; leaves collapse at petiole; brown discoloration inside pseudostem when cut
+   Cause: Soil-borne fungus; spreads through infected planting material and water
+   Remedy: No cure once infected — remove and destroy plant. Treat soil with Carbendazim 1 g/L. Use resistant varieties (Nendran, Karpooravalli). Avoid replanting banana in same spot for 3–4 years.
+
+2. Sigatoka Leaf Spot (Mycosphaerella musicola)
+   Symptoms: Yellow streaks on leaves that enlarge into brown oval spots with yellow halos; severe infection reduces photosynthesis and bunch weight
+   Cause: Fungus; favored by high humidity and cool weather
+   Remedy: Spray Mancozeb 75 WP (2.5 g/L) or Propiconazole 25 EC (1 mL/L). Remove infected leaves. Ensure spacing for air circulation.
+
+3. Banana Bunchy Top Virus (BBTV)
+   Symptoms: Leaves become narrow, stiff, upright with dark green streaks on petiole; plant looks stunted and "bunchy" at top
+   Cause: Virus transmitted by banana aphid (Pentalonia nigronervosa)
+   Remedy: No cure. Remove and destroy infected plant immediately. Control aphid with Dimethoate 30 EC (2 mL/L). Use virus-free tissue culture planting material.
+
+--- PESTS ---
+
+1. Banana Aphid (Pentalonia nigronervosa)
+   Symptoms: Colonies on undersides of leaves and pseudostem; transmits BBTV virus
+   Remedy: Spray Dimethoate 30 EC (2 mL/L) or Imidacloprid 17.8 SL (0.3 mL/L). Remove dry leaf sheaths where aphids hide.
+
+2. Rhizome Weevil (Cosmopolites sordidus)
+   Symptoms: Yellowing and wilting; galleries and brown tunnels visible when rhizome is cut open; plant falls over easily
+   Remedy: Apply Chlorpyrifos 20 EC as soil drench. Use pseudostem traps baited with cut pseudostem pieces. Plant clean sucker material only.
+
+3. Thrips (Thrips hawaiiensis)
+   Symptoms: Scarring and streaking on fruit surface (cosmetic damage); silvery patches on young leaves
+   Remedy: Spray Spinosad 45 SC (0.3 mL/L) or wrap bunches with plastic sleeves after emergence.
+
+================================================================================
+CROP 3: SUGARCANE (கரும்பு — Karumbu)
+================================================================================
+
+PLANTING SEASON
+- Main season: January–February (Thai–Maasi) — preferred for higher yield
+- Autumn planting: September–October (Purattasi–Aippasi)
+- Harvest: 10–12 months after planting
+
+SOIL PREFERENCE
+- Deep, well-drained loamy or clay-loam soils; pH 6.0–8.0
+- Tolerates slight alkalinity but not waterlogging
+- High organic matter increases yield
+
+WATER REQUIREMENTS
+- 1500–2500 mm per season; critical during tillering and grand growth phase
+- Irrigate every 7–10 days; reduce before harvest
+
+--- DISEASES ---
+
+1. Red Rot (Colletotrichum falcatum)
+   Symptoms: Red discoloration inside stalk with white patches (like candy-striped); sour smell; plant dries from top
+   Cause: Fungus; spreads through infected seed cane and water
+   Remedy: Use disease-free setts. Treat setts in Carbendazim 0.1% solution for 10 minutes before planting. Rogue out infected plants immediately.
+
+2. Smut (Sporisorium scitamineum)
+   Symptoms: Long whip-like black structure emerging from growing point; plant growth stunted
+   Cause: Fungus; seed-borne, spreads in warm humid conditions
+   Remedy: Destroy infected plants. Treat setts with hot water at 50°C for 2 hours before planting. Use smut-resistant varieties.
+
+3. Grassy Shoot Disease (Phytoplasma)
+   Symptoms: Multiple thin tillers with pale yellow leaves; no economic yield; plant looks like a bundle of grass
+   Cause: Phytoplasma transmitted by leafhopper insects
+   Remedy: No cure. Destroy affected clumps. Control leafhoppers with Imidacloprid. Use healthy planting material.
+
+--- PESTS ---
+
+1. Early Shoot Borer (Chilo infuscatellus)
+   Symptoms: Dead heart in young shoots; withered central leaf; holes in stem with frass (excreta)
+   Remedy: Apply Chlorpyrifos 10G (25 kg/ha) in soil. Spray Chlorpyrifos 20 EC (2 mL/L). Release Trichogramma chilonis egg parasitoid.
+
+2. Internode Borer (Chilo sacchariphagus)
+   Symptoms: Holes in internodes; reddening inside bored nodes; stalk breaks easily
+   Remedy: Spray Endosulfan 35 EC (2 mL/L) or apply Carbofuran 3G in whorl. Remove damaged tillers.
+
+3. Woolly Aphid (Ceratovacuna lanigera)
+   Symptoms: White woolly masses on underside of leaves; sooty mold develops; plant weakens
+   Remedy: Spray Dimethoate 30 EC (2 mL/L). Release Aphelinus mali (parasitoid). Wash colonies with pressurized water.
+
+================================================================================
+CROP 4: GROUNDNUT (நிலக்கடலை — Nilakkadalai)
+================================================================================
+
+PLANTING SEASON
+- Kharif (summer): May–June (Vaikasi–Aani) — main season in Tamil Nadu
+- Rabi: November–December (Karthigai–Margazhi) in irrigated areas
+- Duration: 100–120 days
+
+SOIL PREFERENCE
+- Well-drained sandy loam or red loamy soils; pH 6.0–7.0
+- Calcium-rich soils promote pod filling
+- Avoid heavy clay — pegs cannot penetrate to set pods
+
+WATER REQUIREMENTS
+- 400–600 mm total; critical at pegging, pod development, and seed filling stages
+- Does not tolerate waterlogging — causes root rot and aflatoxin risk
+- Allow soil to dry slightly between irrigations
+
+--- DISEASES ---
+
+1. Tikka / Leaf Spot (Cercospora arachidicola, Cercosporidium personatum)
+   Symptoms: Circular brown spots on leaves — early leaf spot has yellow halo, late leaf spot has dark border without halo; severe defoliation
+   Cause: Fungal; favored by humid, warm weather
+   Remedy: Spray Mancozeb 75 WP (2.5 g/L) or Carbendazim 50 WP (1 g/L) at 10-day intervals. 3–4 sprays from 30 days after sowing.
+
+2. Stem Rot / Collar Rot (Sclerotium rolfsii)
+   Symptoms: Yellowing and wilting of plant; white fungal mycelium and small brown sclerotia at soil level; plant pulls out easily
+   Cause: Soil-borne fungus; worsened by waterlogging and poor drainage
+   Remedy: Treat seeds with Thiram 75 WP (3 g/kg seed). Drench soil with Carbendazim 1 g/L. Improve drainage. Apply well-decomposed organic matter.
+
+3. Rust (Puccinia arachidis)
+   Symptoms: Small orange-brown pustules on underside of leaves; upper surface shows yellow flecks; severe infection causes defoliation
+   Cause: Fungus; airborne spread, favored by wet weather
+   Remedy: Spray Mancozeb 75 WP (2.5 g/L) or Chlorothalonil 75 WP (2 g/L). Avoid overhead irrigation.
+
+--- PESTS ---
+
+1. Tobacco Caterpillar (Spodoptera litura)
+   Symptoms: Skeletonization of leaves; young larvae feed gregariously; older larvae feed nocturnally and cause heavy defoliation
+   Remedy: Spray Chlorpyrifos 20 EC (2.5 mL/L) or Spinosad 45 SC (0.3 mL/L). Collect and destroy egg masses. Use pheromone traps.
+
+2. Thrips (Frankliniella schultzei)
+   Symptoms: Silvery feeding marks on leaves; leaf curling; vector for Peanut Bud Necrosis Virus (PBNV)
+   Remedy: Spray Imidacloprid 17.8 SL (0.3 mL/L) or Dimethoate 30 EC (2 mL/L). Remove crop debris.
+
+3. White Grub (Holotrichia spp.)
+   Symptoms: Plants wilting and dying in patches; grubs found in soil at root zone; roots eaten off
+   Remedy: Apply Chlorpyrifos 20 EC (5 L/ha) as soil drench. Mix Phorate 10G (10 kg/ha) in soil at sowing.
+
+================================================================================
+CROP 5: COTTON (பருத்தி — Parutti)
+================================================================================
+
+PLANTING SEASON
+- Kharif: June–July (Aani–Aadi) — rainfed cotton
+- Summer irrigated: January–February (Thai–Maasi)
+- Duration: 160–200 days (Bt hybrids); 120–150 days (short-duration)
+
+SOIL PREFERENCE
+- Deep black cotton soil (vertisols) preferred; also grows in red and alluvial soils
+- pH 6.0–8.0; good drainage essential
+- Avoid light sandy soils — poor water and nutrient retention
+
+WATER REQUIREMENTS
+- 700–1200 mm total; critical at squaring, flowering, and boll development
+- Excess moisture causes boll rot and disease
+- Irrigate every 10–14 days in dry periods
+
+--- DISEASES ---
+
+1. Cotton Leaf Curl Virus (CLCuV)
+   Symptoms: Upward curling and thickening of leaves; vein darkening; enations (cup-like structures) on underside of leaves; plant stunted
+   Cause: Begomovirus transmitted by whitefly (Bemisia tabaci)
+   Remedy: No cure. Control whitefly with Imidacloprid 17.8 SL (0.3 mL/L). Remove infected plants. Use tolerant varieties.
+
+2. Alternaria Leaf Spot (Alternaria macrospora)
+   Symptoms: Brown circular spots with concentric rings (target-board pattern) on older leaves; premature defoliation
+   Cause: Fungus; favored by high humidity and warm weather
+   Remedy: Spray Mancozeb 75 WP (2.5 g/L) or Iprodione 50 WP (1.5 g/L). Collect and destroy fallen leaves.
+
+3. Fusarium Wilt (Fusarium oxysporum f.sp. vasinfectum)
+   Symptoms: Yellowing from lower leaves upward; brown vascular discoloration inside stem; plant wilts and dies
+   Cause: Soil-borne fungus; enters through roots, worsened by root-knot nematodes
+   Remedy: Seed treatment with Carbendazim 2 g/kg. Soil drench with Carbendazim 1 g/L. Use wilt-resistant varieties. Practice crop rotation.
+
+--- PESTS ---
+
+1. Bollworm complex (Helicoverpa armigera, Pectinophora gossypiella, Earias spp.)
+   Symptoms: Holes in squares, flowers, and bolls; frass visible; premature boll opening and shedding
+   Remedy: Spray Chlorantraniliprole 18.5 SC (0.3 mL/L) or Spinosad 45 SC (0.3 mL/L). Use Bt cotton to manage Helicoverpa. Install pheromone traps (5/acre).
+
+2. Whitefly (Bemisia tabaci)
+   Symptoms: Yellow speckling on leaves; honeydew and sooty mold on leaves; vector for leaf curl virus
+   Remedy: Spray Imidacloprid 17.8 SL (0.3 mL/L) or Thiamethoxam 25 WG (0.2 g/L). Yellow sticky traps (10/acre). Remove volunteer plants.
+
+3. Sucking pests — Aphids, Jassids, Thrips
+   Symptoms: Yellowing, curling, and crinkling of leaves; honeydew secretion; reduced plant vigor
+   Remedy: Spray Dimethoate 30 EC (2 mL/L) or Acetamiprid 20 SP (0.3 g/L). Spray underside of leaves. Preserve natural enemies (ladybird beetles, lacewings).
+
+================================================================================
+GENERAL ADVISORY
+================================================================================
+
+--- NITROGEN DEFICIENCY VS WATERLOGGING (COMMONLY CONFUSED) ---
+
+Nitrogen Deficiency:
+- Yellowing starts from OLDER (lower) leaves first, then moves upward
+- Yellowing is uniform across the leaf (no spots or patches)
+- Entire plant looks pale green or yellow
+- Growth is slow, plant is stunted
+- Occurs in sandy soils, after heavy rain leaching nitrogen, or when no fertilizer applied
+- Remedy: Apply urea (46% N) at 2 kg/100L water as foliar spray, or apply nitrogen fertilizer to soil
+
+Waterlogging:
+- Yellowing can start on any leaves, often entire plant wilts even when soil is wet
+- Roots are brown, soft, and rotting when pulled out
+- Sour or foul smell from soil around roots
+- Soil surface may show algae or moss growth
+- Occurs after continuous rain or over-irrigation
+- Remedy: Drain field immediately, make drainage channels, do NOT apply fertilizer until drainage improves
+
+Key difference: If roots are brown and rotting — it is waterlogging. If roots are white and healthy but plant is pale — it is nitrogen deficiency.
+
+--- ORGANIC REMEDY OPTIONS ---
+
+1. Neem Oil (வேப்ப எண்ணெய்)
+   - Use: Broad-spectrum insecticide and fungicide
+   - Preparation: Mix 5 mL neem oil + 1 mL liquid soap per liter of water; spray on leaves
+   - Effective against: Aphids, whitefly, thrips, mites, powdery mildew
+   - Apply in early morning or evening; not effective once pests are large
+
+2. Panchagavya (பஞ்சகாவ்யா)
+   - Use: Plant growth promoter and broad immunity booster
+   - Preparation: Mix 3% (30 mL per liter of water); spray on leaves or pour at root zone
+   - Contains: Cow dung, cow urine, milk, curd, ghee — fermented for 21 days
+   - Benefits: Improves root growth, increases disease resistance, enhances yield
+
+3. Neem Seed Kernel Extract (NSKE)
+   - Use: Insect repellent and egg-laying deterrent
+   - Preparation: Soak 500 g neem seeds overnight; crush and filter; dilute to 5% (50 mL per liter)
+   - Effective against: Bollworms, leaf folders, tobacco caterpillar
+
+4. Wood Ash (சாம்பல்)
+   - Use: Repels soft-bodied insects; adds potassium and calcium to soil
+   - Application: Dust directly on plants in early morning when dew is present
+
+5. Cow Urine (கோமூத்திரம்)
+   - Use: Fungicide and insect repellent
+   - Preparation: Dilute 1:10 with water; spray on affected plants
+   - Effective against: Aphids, fungal diseases, improves plant immunity
+
+--- WHEN TO CONTACT AN AGRICULTURAL OFFICER ---
+
+Contact your nearest Agricultural Officer (வேளாண்மை அலுவலர்) if:
+1. More than 20% of your field shows disease symptoms and spraying has not helped after 2–3 applications
+2. You see a pest or disease you have never seen before and cannot identify it
+3. Your crop is wilting despite adequate water and no visible disease (possible soil or systemic problem)
+4. Entire field shows uniform yellowing — may indicate soil pH problem or micronutrient deficiency requiring soil test
+5. You suspect pesticide resistance — same pesticide no longer working despite correct application
+6. Before using any pesticide combination you are unsure about — incorrect mixing can damage crops
+
+The Agricultural Officer can:
+- Conduct field visits and soil tests
+- Recommend government subsidy schemes for inputs and equipment
+- Advise on crop insurance (PM Fasal Bima Yojana)
+- Connect farmers to Krishi Vigyan Kendra (KVK) for training
+
+Contact: Visit your nearest Panchayat Union agricultural office or call the Tamil Nadu Agricultural University helpline: 1800-425-1551 (toll free)
+
+================================================================================
+VISUAL SYMPTOMS GUIDE (for photo-based diagnosis)
+================================================================================
+
+Use this section when a farmer shares a photograph of their crop problem.
+Match what is visible in the image to the descriptions below.
+
+--- RICE (நெல்) ---
+
+Blast disease: Look for diamond- or eye-shaped lesions on leaves — gray or white center with brown or reddish-brown border. On the neck (just below the panicle), a dark brown pinched area causing the panicle to turn white and dry (whitehead). Lesions have a distinctive elongated shape unlike other diseases.
+
+Bacterial Leaf Blight: Yellow to orange-yellow discoloration starting from the leaf tip and spreading downward along the margins. The boundary between healthy and diseased tissue is wavy, not sharp. In severe cases the entire leaf turns straw-yellow. Milky bacterial ooze visible on cut leaf tip when held under water.
+
+Sheath Blight: Oval or irregular lesions on the leaf sheath near the waterline — gray-white center with a brown border. Lesions coalesce and move upward. Infected plants lodge (fall over). Lesions look like irregular patches, not neat spots.
+
+Brown Plant Hopper damage: Circular patches of brown, scorched-looking plants ("hopper burn") visible from a distance. Up close, tiny brown insects clustered at the base of plants near the waterline. No obvious lesions on leaves — plants just brown and collapse from feeding damage.
+
+Leaf Folder: Leaves folded lengthwise and held together with silk thread. Inside the fold, the green leaf tissue is scraped away leaving a white papery streak. Look for the caterpillar inside the fold.
+
+Stem Borer (deadheart): Central shoot of the tiller is dead and dried — pulls out easily with a gentle tug. Surrounding tillers are healthy. Small round hole visible in the tiller base. At panicle stage, panicle is white and empty (whitehead).
+
+--- BANANA (வாழை) ---
+
+Panama Wilt: Older leaves turn yellow starting from the outer margins and collapse at the petiole, hanging down like a skirt. When you cut the pseudostem cross-sectionally, the inner tissue shows brown or reddish-brown discoloration in a ring pattern. Severely affected pseudostems have a rotten odor inside.
+
+Sigatoka Leaf Spot: Small pale yellow or light brown streaks on leaves that widen into oval spots with yellow halos. Spots turn dark brown with a lighter gray center as they age. Heavily infected leaves look burned or scorched from a distance.
+
+Bunchy Top Virus (BBTV): Leaves are narrow, stiff, pale green with dark green streaks or "Morse-code" dashes on the midrib and petiole. Leaves stand upright and bunch at the top of the plant instead of spreading outward. New leaves emerge small and upright, giving a stunted rosette appearance.
+
+Aphid colony: Dense clusters of tiny oval insects (pale green to dark brown) on the underside of leaves, on the pseudostem, and in leaf axils. Shiny honeydew deposits on leaf surfaces; black sooty mold may grow on the honeydew.
+
+Rhizome Weevil: Plant falls over easily. When rhizome is cut open, reveals brown tunnels and galleries. The weevil itself is black, hard-shelled, about 12mm long, with a curved snout.
+
+--- SUGARCANE (கரும்பு) ---
+
+Red Rot: Externally the stalk shows reddening of nodes and internodes. When the stalk is split open, the internal tissue is red with scattered white patches (like candy stripes). The rotten portion has a sour, vinegary smell. Top leaves dry and wilt.
+
+Smut: A long whip-like structure (black mass of spores covered by a thin silvery membrane) emerges from the growing point. The rest of the plant may look normal initially but eventually stunts. The whip is unmistakable — a curved black appendage up to 1 meter long.
+
+Grassy Shoot: Multiple thin, grass-like pale yellow tillers emerge from the base. The leaves are narrow and pale yellow-green, much thinner than normal cane. The plant produces no usable cane — it looks like a bundle of yellow grass.
+
+Early Shoot Borer: Dead central shoot (deadheart) in young sugarcane. A small hole in the base of the dead shoot. If peeled open, shows the caterpillar or its frass (brown powder-like excreta) inside.
+
+Woolly Aphid: White fluffy or cottony masses on the underside of leaves, particularly along the midrib. Heavy infestation makes leaves look dusted with white cotton. Black sooty mold grows on the honeydew.
+
+--- GROUNDNUT (நிலக்கடலை) ---
+
+Tikka Leaf Spot (Early): Circular dark brown spots on leaves with a distinct yellow halo around each spot. Spots appear first on lower older leaves. Early leaf spot spots have a yellow halo; late leaf spot spots are darker with no distinct yellow halo.
+
+Stem Rot / Collar Rot: Plant wilts suddenly and dies. At soil level, white fluffy fungal mycelium visible around the stem base. Small round brown-to-black sclerotia (like mustard seeds) embedded in or near the mycelium. Roots are brown and rotten.
+
+Rust: Orange-brown powdery pustules on the underside of leaves. On the upper leaf surface, corresponding yellow flecks appear. When you rub your finger on the pustules, orange powder comes off (this is the rust spore mass).
+
+Tobacco Caterpillar: Leaves skeletonized — only the veins remain, giving a net-like appearance. Young caterpillars feed in groups; look for egg masses (yellowish, hairy) on leaf undersides. Older caterpillars are greenish-brown with stripes.
+
+White Grub: Plants wilting and dying in patches with healthy plants surrounding them. Grubs (C-shaped, creamy white, with brown head) found in the soil at the root zone when soil is dug up. Roots are eaten off at or below soil level.
+
+--- COTTON (பருத்தி) ---
+
+Leaf Curl Virus: Leaves curl upward (not downward) and become thick and leathery. Veins thicken and darken (vein darkening). Enations — small leaf-like outgrowths — visible on the underside of leaves along the veins. Plants are stunted. This is very distinctive and hard to confuse.
+
+Alternaria Leaf Spot: Round brown spots with concentric rings, looking like a target board. Spots appear first on older leaves. Heavily infected leaves drop prematurely. The concentric ring pattern is the key visual identifier.
+
+Bollworm damage: Holes in flower buds (squares), flowers, and bolls. Frass (caterpillar excreta — dark brown pellets) visible at the hole entry. Bolls may open prematurely and unevenly. Inside a damaged boll, the cotton fiber is stained brown and the seeds are eaten.
+
+Whitefly: Tiny white winged insects (look like white dust) on the underside of leaves that fly up in a cloud when disturbed. Upper leaf surface shows yellow speckling. Heavy infestations have black sooty mold on upper leaf surfaces from honeydew.
+
+Sucking pest damage (general): Leaves curl downward or inward (unlike leaf curl virus which curls upward). Leaves may crinkle or pucker. Shiny honeydew deposits visible. Look on the underside for mites (need magnification), aphids, thrips, or jassids.
+
+--- VISUAL DIAGNOSIS TIPS ---
+
+1. Always check BOTH sides of the leaf — many pests feed on the underside and are invisible from the top.
+2. Check the stem base and roots if the plant is wilting — root rot and stem rot are often the real cause.
+3. Color of the lesion CENTER vs BORDER matters: Blast has gray center + brown border; Sheath Blight has white center + brown border.
+4. Pattern of spread across the field matters: uniform field-wide yellowing = likely nutrition/soil problem; random patches = likely disease or pest.
+5. If you can photograph the root system alongside the leaves, diagnosis accuracy improves significantly.
