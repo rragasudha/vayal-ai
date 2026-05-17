@@ -1,6 +1,6 @@
 # Vayal AI — Tamil Voice Agricultural Advisor
 
-Vayal AI is a Tamil-language voice advisory tool for farmers in Tamil Nadu. A farmer speaks a question in Tamil — about crop diseases, pests, planting timing, or soil — and the system responds with practical advice in Tamil. It uses OpenAI Whisper for speech-to-text and Google Gemma 4 for reasoning, both via the HuggingFace Inference API. No database, no UI, no paid services — a CLI script that runs on the HuggingFace free tier.
+Vayal AI is a Tamil-language voice advisory tool for farmers in Tamil Nadu. A farmer speaks a question in Tamil — about crop diseases, pests, planting timing, or soil — and the system responds with practical advice in Tamil. It uses OpenAI Whisper for speech-to-text (via Groq) and Google Gemma 4 for reasoning (via OpenRouter). No database, no UI — a CLI script.
 
 Built for the [DEV.to Gemma 4 Challenge](https://dev.to/challenges/gemma).
 
@@ -13,7 +13,7 @@ Built for the [DEV.to Gemma 4 Challenge](https://dev.to/challenges/gemma).
 - **Thinking mode** — reasons step by step before answering, crucial for distinguishing e.g. nitrogen deficiency from waterlogging
 - **Apache 2.0** — NGOs and state governments can deploy freely
 
-The model used is `google/gemma-4-26B-A4B-it` — a Mixture-of-Experts model with 26B total parameters and 4B active parameters per forward pass, giving 4B-class speed at much higher quality.
+The model used is `google/gemma-4-27b-it`, served via OpenRouter.
 
 ---
 
@@ -27,9 +27,9 @@ cd vayal-ai
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Add your HuggingFace token
+# 3. Add your API keys
 cp .env.example .env
-# Edit .env — replace the placeholder with your token from https://huggingface.co/settings/tokens
+# Edit .env — add your Groq key (https://console.groq.com/keys) and OpenRouter key (https://openrouter.ai/keys)
 
 # 4. Run
 python main.py --text "நெல் செடியில் இலைகள் மஞ்சளாக மாறுகின்றன, என்ன செய்வது?"
@@ -81,16 +81,6 @@ python main.py --audio path/to/question.wav
 
 ---
 
-## HuggingFace free tier notes
-
-- **Cold starts**: The first request after the model has been idle takes 20–60 seconds. The tool retries automatically up to 3 times with 10-second gaps.
-- **Rate limits**: The free tier allows a generous number of requests for demo/development use. For sustained production load, consider a paid HF Pro subscription or a dedicated inference endpoint.
-- **Inference provider**: Requests are routed through HuggingFace's inference provider network (deepinfra/novita). You pay nothing on the free tier up to monthly credit limits.
-- **Whisper STT**: Also uses the HF free tier. Audio files are sent as raw bytes — no local model download needed.
-- **Session logs**: Every run is appended to `logs/sessions.jsonl`, including the model's thinking trace (not shown to the farmer but useful for debugging).
-
----
-
 ## Phase 2 vision — fully offline on edge hardware
 
 The current pipeline makes two API calls: Whisper for speech-to-text, then Gemma 4 for reasoning. This requires an internet connection.
@@ -104,11 +94,11 @@ Gemma 4 E4B natively supports audio input. Once HuggingFace's Inference API expo
 ```
 vayal-ai/
 ├── main.py              # CLI entry point
-├── transcribe.py        # Whisper STT via HF Inference API
-├── advisor.py           # Gemma 4 inference via HF Inference API
+├── transcribe.py        # Whisper STT via Groq
+├── advisor.py           # Gemma 4 inference via OpenRouter
 ├── prompt_builder.py    # Assembles system prompt + user query
 ├── logger.py            # Appends sessions to logs/sessions.jsonl
 ├── knowledge_base.txt   # Agricultural knowledge for Tamil Nadu crops
-├── .env.example         # Token template
+├── .env.example         # API key template
 └── requirements.txt
 ```
