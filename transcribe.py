@@ -25,7 +25,11 @@ def transcribe(audio_path: str) -> str:
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             # Force Tamil — without this Whisper auto-detects and may output Telugu or Malayalam
-            result = client.automatic_speech_recognition(audio_path, model=MODEL_ID, language="ta")
+            result = client.automatic_speech_recognition(
+                audio_path,
+                model=MODEL_ID,
+                extra_body={"language": "ta"},
+            )
             # InferenceClient returns an AutomaticSpeechRecognitionOutput with a .text attribute
             transcript = result.text.strip() if hasattr(result, "text") else str(result).strip()
             if not transcript:
